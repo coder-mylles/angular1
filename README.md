@@ -4,7 +4,7 @@
 An application that shows quotes by different authors.Users can add quotes of their own,by filling in the form with the require input fields.They can also upvote or down vote them,where the quote with the highest upvote gets highlighted.Users can also delete quotes by clicking the delete button.
 
 ### Screenshot
-<img src="https://github.com/Ndundiro/my-quotes/blob/master/src/assets/quotes.png" width="1000">
+<img src="https://github.com/martin-moringa/angular1/blob/main/src/assets/quotes.png" width="1000">
 
 ###  Behaviour Driven Development(BDD)
 The website has the following functionalities:
@@ -45,7 +45,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 The upvote logic does not work as expected.It does not highlight the most upvoted quote.
 
 ## Support and Contact Details
-For any comments,suggestions,feedback or inquiries, contact me via email: ndundirokamau@gmail.com
+For any comments,suggestions,feedback or inquiries, contact me via email: martin.mylles@student.moringashool.com
 
 Make contributions to the code.
 
