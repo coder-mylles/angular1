@@ -4,7 +4,7 @@
 An application that shows quotes by different authors.Users can add quotes of their own,by filling in the form with the require input fields.They can also upvote or down vote them,where the quote with the highest upvote gets highlighted.Users can also delete quotes by clicking the delete button.
 
 ### Screenshot
-<img src="" width="1000">
+<img src="https://github.com/Ndundiro/my-quotes/blob/master/src/assets/quotes.png" width="1000">
 
 ###  Behaviour Driven Development(BDD)
 The website has the following functionalities:
@@ -17,14 +17,14 @@ The website has the following functionalities:
 * The quote with the highest number of upvotes is highlighted.
 
 ## Setup/Installation requirements
-Clone or download and unzip the repository from github, https://github.com/Ndundiro/my-quotes-/.
+Clone or download and unzip the repository from github, https://github.com/martin-moringa/angular1.git
 If you have git Use this command git clone * to clone the project.
 Run ng serve from your terminal
 Live Demo
 
 To view the page click on the link below
 
-https://ndundiro.github.io/my-quotes/
+https://martin-moringa.github.io/angular1/
 
 ## Development server
 
