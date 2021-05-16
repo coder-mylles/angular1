@@ -50,6 +50,6 @@ For any comments,suggestions,feedback or inquiries, contact me via email: martin
 Make contributions to the code.
 
 ## License
-This project is licensed under the MIT Open Source license Copyright &copy; 2019. Ndundiro Kamau
+This project is licensed under the MIT Open Source license Copyright &copy; 2021. Martin Mylles
 
 
