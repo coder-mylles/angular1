@@ -1,0 +1,15 @@
+<div>
+    <h6>Posted by {{quote.owner}}</h6>
+    <h6>posted on {{quote.completeDate|date}} </h6>
+</div>
+
+<p>Quote was posted {{quote.completeDate|dateCount}}  ago.</p>
+<div class="row">
+    <div class="col-md-9">
+        <app-like></app-like>
+    </div>
+
+    <div class="col-md-3">
+        <button class="btn btn-primary" (click)="quoteDelete(true)">Delete</button>
+    </div>
+</div>
