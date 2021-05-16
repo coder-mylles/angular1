@@ -1,10 +1,10 @@
-### Author Ndundiro Kamau, August 15th 2019
+### Author Martin, May 17th 2021
 
 ### Description
 An application that shows quotes by different authors.Users can add quotes of their own,by filling in the form with the require input fields.They can also upvote or down vote them,where the quote with the highest upvote gets highlighted.Users can also delete quotes by clicking the delete button.
 
 ### Screenshot
-<img src="https://github.com/Ndundiro/my-quotes/blob/master/src/assets/quotes.png" width="1000">
+<img src="" width="1000">
 
 ###  Behaviour Driven Development(BDD)
 The website has the following functionalities:
