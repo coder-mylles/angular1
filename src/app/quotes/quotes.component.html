@@ -1,1 +1,29 @@
-<p>quotes works!</p>
+<h1 class="text-center text-white">
+    Welcome to the Quotes Galore
+</h1>
+<hr>
+
+<div></div>
+<div class="row container mx-auto">
+    <!-- Logic for adding a new goal -->
+    <div id="form" class="col-md-5">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
+
+    <div class="col-md-7">
+        <div class="card" *ngFor="let quote of quotes;let i =  index">
+            <div class="card-header row">
+                <div class="col-md-9"> "{{quote.name}}" ~ {{quote.author}}
+                </div>
+                <div class="col-md-3"> <button class="show btn-sm" (click)="toggleDetails(i)"
+                        class="btn btn-primary">Details</button>
+                </div>
+            </div>
+
+            <div class="card-body">
+                <app-posting-details *ngIf="quote.showDescription" [quote]="quote" (isComplete)="deleteQuote($event,i)">
+                </app-posting-details>
+            </div>
+        </div>
+    </div>
+</div>
